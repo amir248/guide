@@ -14,7 +14,7 @@ function changePhotoGg(){
             let n=+0;
             setInterval(()=>{
                 document.querySelector('body').style.cssText=`
-                    background-image:url( '${imgBg[n]}');
+                    background-image:url('${imgBg[n]}');
                     transition:all ease 1s;
                 `;
                 n++;
