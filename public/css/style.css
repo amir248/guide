@@ -64,6 +64,7 @@ nav > div{
  nav > div > strong{
     font-size: 33px;
     font-weight: bold;
+    text-transform:capitalize;
  }
 body > main > article > nav > div > button{
     width:100%;
@@ -124,6 +125,7 @@ article > section{
     font-size:73px;
     text-shadow:3px 3px black;
     color:white;
+    text-transform:uppercase;
 }
 .centerBox > p{
     color:white;
