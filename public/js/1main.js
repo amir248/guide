@@ -15,12 +15,13 @@ function changePhotoGg(){
             setInterval(()=>{
                 document.querySelector('body').style.cssText=`
                     background-image:url( '${imgBg[n]}');
+                    transition:all ease 1s;
                 `;
                 n++;
                if(n>=imgBg.length){
                 n=0;
                }
-            },1777);
+            },3777);
             
         }
         resolve(toGo());
